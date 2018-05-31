@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.jumbotron-index {
+  background-image: url(../img/Lighthouse.jpg);
+  background-size: cover;
+  background-position: center center; /* 上下左右は中央を起点に画像を見せる */
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 0px;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
+.hr-jumbotron {
+  border-top-color: white;
+}
+
+.contents-name p {
+  font-size: 24px;
+}
+
+.text-ex-big {
+  font-size: 24px;
+}
+
+.text-big {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  top: 700px;
+  z-index: 1
+}
